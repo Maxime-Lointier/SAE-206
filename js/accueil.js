@@ -2,7 +2,10 @@ function changeLanguage() {
     var languageSelect = document.getElementById("language-select");
     var selectedValue = languageSelect.options[languageSelect.selectedIndex].value;
     if (selectedValue === "en") {
-      window.location.href = "indexen.html";
+      window.location.href = "accueil_en.html";
+    }
+    else if(selectedValue === "fr"){
+      window.location.href = "accueil.html";
     }
   }
   document.addEventListener("DOMContentLoaded", function() {
