@@ -26,13 +26,18 @@ $(document).ready(function(){
       ]
     });
   });
+
   function changeLanguage() {
     var languageSelect = document.getElementById("language-select");
     var selectedValue = languageSelect.options[languageSelect.selectedIndex].value;
     if (selectedValue === "en") {
-      window.location.href = "page2023en.html";
+      window.location.href = "page2024_en.html";
+    }
+    else if(selectedValue === "fr"){
+      window.location.href = "page2024.html";
     }
   }
+
 console.log("Largeur de la fenêtre : " + window.innerWidth);
 console.log("Hauteur de la fenêtre : " + window.innerHeight);
 document.addEventListener("DOMContentLoaded", function() {
