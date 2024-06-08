@@ -12,6 +12,12 @@
     padding: 10px 5px 30px 5px ;
     height :500px;
   }
+  .language-menu {
+    margin-top :-10px ;
+    margin-left: 25em;
+    z-index: 3;
+    position: fixed;
+  }
 }
 
 @media screen and (min-width : 577px) and (max-width :700px){
@@ -27,6 +33,12 @@
     padding: 10px 10px 40px 10px ;
     height :550px;
   }
+  .language-menu {
+    margin-top :-10px ;
+    margin-left: 25em;
+    z-index: 3;
+    position: fixed;
+  }
 }
 
 @media screen and (min-width : 701px) and (max-width :800px){
@@ -41,6 +53,12 @@
     font-size: 10px ;
     padding: 10px 15px 50px 15px ;
     height :500px;
+  }
+  .language-menu {
+    margin-top :-10px ;
+    margin-left: 25em;
+    z-index: 3;
+    position: fixed;
   }
 }
 
@@ -58,6 +76,12 @@
     height :600px;
     
   }
+  .language-menu {
+    margin-top: -30px;
+    margin-left: 49em;
+    z-index: 3;
+    position: fixed;
+  }
 }
 
 @media screen and (min-width : 1001px) and (max-width :1200px){
@@ -72,6 +96,12 @@
     font-size: 11.9px ;
     padding: 10px 20px 60px 20px ;
     height :650px;
+  }
+  .language-menu {
+    margin-top :-10px ;
+    margin-left: 25em;
+    z-index: 3;
+    position: fixed;
   }
 }
 
@@ -88,6 +118,12 @@
     padding: 10px 25px 70px 25px ;
     height :700px;
   }
+  .language-menu {
+    margin-top :-10px ;
+    margin-left: 25em;
+    z-index: 3;
+    position: fixed;
+  }
 }
 
 @media screen and (min-width : 1501px){
@@ -102,6 +138,12 @@
     font-size: 16px ;
     padding: 10px 30px 80px 30px ;
     height :700px;
+  }
+  .language-menu {
+    margin-top: -30px;
+    margin-left: 136em;
+    z-index: 3;
+    position: fixed;
   }
 }
 
@@ -172,13 +214,25 @@
 
   .photo-section {
     position : relative ;
-    z-index : 1 ;
-    width: 50%;
-    height: 50%;
+    z-index : 999 ;
+    width: 45%;
+    height: 40;
     float: left;
     background-color: #fff;
+    color: black;
+    justify-content : center ;
+    align-items : center ;
+    left :10px ;
+    z-index: 1;
+    background-color: #fff;
+  }
+  .photo-section img {
+    height: 75%;
+    margin : auto;
     box-shadow: 0 0 30px rgba(0,0,0,0.3);
-    border-radius: 1em;
+    border: 2px double black;
+    border-radius: 0px ;
+    display: block;
   }
   .slick-carousel img {
     flex: none;
@@ -208,7 +262,14 @@
     border-radius: 1em;
     padding-left: 1em;
   }
-
+  @media screen and (max-width : 1000px) {
+    .partie-droite {
+      display: none;
+    }
+    .photo-section{
+      width: 100%;
+    }
+  }
   .partie-droite{
     width :42.4% ;
     float : right  ;
@@ -259,13 +320,7 @@
     font-size: large;
 
   }
-  .language-menu {
-    margin-top :-30px ;
-    margin-left: 107em;
-    z-index: 3;
-    position: fixed;
-  }
-
+  
   footer {
     bottom: 0 ;
     width: 99% ;
@@ -375,3 +430,19 @@
   .res_qes {
 
   }
+  .expo2024-section {
+    width: 16%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border-radius: 1em;
+    padding: 1em;
+  }
+  .expo2024-section img {
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin : auto;
+    width: 76%;
+  }
+  
+  .flexbox{
+    display: flex;
+  }
+  
