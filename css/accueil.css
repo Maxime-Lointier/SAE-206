@@ -109,7 +109,9 @@
       top: 0;
       left: 0;
       height: 50px;
-      width: 30%;
+      width: 100%;
+      background-color: lightslategray;
+      z-index: 2;
     }
   
     .menu-btn {
@@ -128,7 +130,7 @@
       position: absolute;
       top: 65%;
       left: 8px;
-      background-color: #fff;
+      background-color: lightslategray;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
   
@@ -179,6 +181,7 @@
       align-items : center ;
       display :flex ;
       left :10px ;
+      z-index: 1;
     }
   
     .photo-section img {
@@ -225,7 +228,7 @@
   
     .expo2024-section {
       position: relative ;
-      z-index : 2 ;
+      z-index : 1 ;
       padding: 8.8px;
       text-align: center;
       margin : 0 auto ;
@@ -253,8 +256,10 @@
     }
   
     .language-menu {
-      float: right;
       margin-top :-20px ;
+      margin-left: 107em;
+      z-index: 3;
+      position: fixed;
     }
   
     footer {

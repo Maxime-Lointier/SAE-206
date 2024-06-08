@@ -1,10 +1,12 @@
 .header {
     position: fixed;
-    float: left;
-    top: 0;
-    left: 0;
-    height: 50px;
-    width: 30%;
+      float: left;
+      top: 0;
+      left: 0;
+      height: 50px;
+      width: 100%;
+      background-color: lightslategray;
+      z-index: 2;
   }
 
   .menu-button {
@@ -23,9 +25,13 @@
     position: absolute;
     top: 65%;
     left: 8px;
-    background-color: #fff;
+    background-color: lightslategray;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   }
+  .menu-dropdown:hover {
+  background-color: lightslategray;
+  }
+
 
   .menu-dropdown ul {
     list-style: none;
@@ -48,11 +54,14 @@
 
   .header:hover .menu-dropdown {
     display:  block;
+    background-color: lightslategray;
   }
 
   .language-menu {
-      float: right;
-      margin-top : 5px ;
+    margin-top :-10px ;
+    margin-left: 107em;
+    z-index: 3;
+    position: fixed;
     }
   
 /* Equipe titre */ 
