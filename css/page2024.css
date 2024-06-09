@@ -54,7 +54,6 @@
   }
   .photo-section{
     font-size: 11.9px ;
-    padding: 10px 20px 50px 20px ;
     height :600px;
     
   }
@@ -413,4 +412,7 @@
   
   .flexbox{
     display: flex;
+  }
+  section{
+    margin-top: 50em;
   }
