@@ -210,6 +210,7 @@
       margin-right : 60px ;
       float : right ;
       width : 42.4% ;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
     }
   
     .recap-section h2 {
@@ -368,4 +369,21 @@
   input {
     line-height : 2 ;
     margin-bottom: 10px ;
+  }
+  section{
+    margin-top: 40em;
+    margin-left: -21em;
+    left: -4em;
+    position: relative;
+  }
+  .dates{
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  @media screen and (max-width : 1200px) {
+    section{
+      margin-top: 40em;
+      margin-left: -21em;
+      left: -4em;
+      position: relative;
+    }
   }
