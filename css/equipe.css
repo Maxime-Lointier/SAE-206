@@ -58,8 +58,8 @@
   }
 
   .language-menu {
-    margin-top :-30px ;
-    margin-left: 107em;
+    margin-top: -30px;
+    margin-left: 10em;
     z-index: 3;
     position: fixed;
     }
