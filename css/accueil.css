@@ -382,7 +382,7 @@
   }
   @media screen and (max-width : 1200px) {
     section{
-      margin-top: 40em;
+      margin-top: 2em;
       margin-left: -21em;
       left: -4em;
       position: relative;
@@ -392,4 +392,36 @@
     border-radius: 1em;
     border: solid 2px #000;
     padding: 6px;
+  }
+  .recap-responsive {
+    display: none;
+    padding: 8.8px;
+      background-color:  white ;
+      color: black;
+      box-sizing: border-box;
+      border : 1px solid white ;
+      margin-right : 60px ;
+      float : right ;
+      width : 42.4% ;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      border-radius: 1em;
+  }
+  @media screen and (max-width : 1200px) {
+    .recap-responsive{
+      display: block;
+      padding-bottom: 1em;
+      width : 55% ;
+    }
+    .recap-section{
+      display: none;
+    }
+    .photo-section{
+      width: 35% !important;
+      height: auto !important; 
+      margin: auto auto;
+      float: none !important;
+    }
+    .expo2024-section{
+      margin-top: 970px;
+    }
   }
