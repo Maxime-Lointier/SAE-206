@@ -211,6 +211,7 @@
       float : right ;
       width : 42.4% ;
       box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      border-radius: 1em;
     }
   
     .recap-section h2 {
@@ -238,7 +239,7 @@
       color: black;
       box-sizing: border-box;
       border : 1px solid white ;
-      margin-top: 1200px;
+      margin-top: 1350px;
       width: 100%;
     }
     .expo2024-section img {
@@ -386,4 +387,9 @@
       left: -4em;
       position: relative;
     }
+  }
+  .border {
+    border-radius: 1em;
+    border: solid 2px #000;
+    padding: 6px;
   }
