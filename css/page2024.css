@@ -215,7 +215,9 @@
     color: black ;
     text-shadow: 1px 1px 3px #000000;
   }
-
+  .recap-responsive {
+    display: none;
+  }
   .recap-section {
     padding: 8.8px;
     color: black;
@@ -226,12 +228,15 @@
     border-radius: 1em;
     padding-left: 1em;
   }
-  @media screen and (max-width : 1000px) {
+  @media screen and (max-width : 1200px) {
     .partie-droite {
       display: none;
     }
     .photo-section{
       width: 100%;
+    }
+    .recap-responsive{
+      display: block;
     }
   }
   .partie-droite{
@@ -258,7 +263,7 @@
     color: black;
     box-sizing: border-box;
     z-index : 2 ;
-    background-color: white;
+    background-color: transparent;
   }
 
   .interview-section h2 {
@@ -409,4 +414,3 @@
   .flexbox{
     display: flex;
   }
-  
